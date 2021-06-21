@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/ress.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <title>bourbaki - takeshitakouhei.com</title>
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "sqa0tvm",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    <div class="header-bg">
+      <img src="./image/header-bg.png" alt="" />
+    </div>
+    <header class="header">
+      <div class="header-title"><a href="index.html">takeshita kouhei</a></div>
+      <div class="header-title_bg"></div>
+      <div class="header-nav">
+        <ul class="header-nav_wrap workpage-header_nav_wrap">
+          <li class="header-nav_list">
+            <a href="index.html">top</a>
+          </li>
+          <!-- <li class="header-nav_list"><a href="index.html#about">about</a></li>
+          <li class="header-nav_list"><a href="index.html#work">work</a></li>
+          <li class="header-nav_list">
+            <a href="index.html#contact">contact</a>
+          </li> -->
+        </ul>
+      </div>
+      <div class="header-hum">
+        <span class="header-hum_top"></span
+        ><span class="header-hum_middle"></span
+        ><span class="header-hum_bottom"></span>
+      </div>
+    </header>
+    <main>
+      <div class="workpage-header"></div>
+      <section id="workpage-work" class="workpage-work">
+        <h2 class="section-title workpage-section-title_work">
+          <div class="workpage-section-title_work_en">
+            <img src="./image/work.png" alt="" />
+          </div>
+          <div class="workpage-section-title_work_jp">
+            <img src="./image/制作実績.png" alt="" />
+          </div>
+          <div class="workpage-section-title_work_box">
+            <p>株式会社ブルバキ(架空)</p>
+          </div>
+        </h2>
+        <div class="workpage-work-wrap">
+          <div class="workpage-work_img">
+            <img
+              class="workpage-work_img_photo"
+              src="./image/bourbaki/pctop.png"
+              alt=""
+            />
+          </div>
+          <div class="workpage-work_content_first">
+            <section class="workpage-work_group workpage-work_group_first">
+              <h3 class="workpage-work_section_title">制作テーマ</h3>
+              <p class="workpage-work_section_text">
+                職業訓練の卒業制作にて制作。<br />個人事務所をイメージして制作。ローディングアニメーション、オープニングアニメーション、メインページ、コンタクトページを作成。
+              </p>
+            </section>
+          </div>
+          <div class="workpage-work_content_second">
+            <section class="workpage-work_group">
+              <h3 class="workpage-work_section_title">コンセプト</h3>
+              <p class="workpage-work_section_text">
+                【空集合 ∅】【数学】【ストリート】【ペンキ】<br />をコンセプトに作成しました。<br />
+                会社名の由来が1920年代の数学者集団である"ニコラ・ブルバキ"が「数学原論」にて【空集合
+                ∅】を唱えたことから会社名を"ブルバキ株式会社"としました。
+              </p>
+            </section>
+            <section class="workpage-work_group">
+              <h3 class="workpage-work_section_title">制作ポイント</h3>
+              <p class="workpage-work_section_text">
+                ・ローディングアニメーション、オープニングアニメーションをCSS、JavaScript、jQueryを使用し作成<br />
+                ・各コンテンツの背景をThree.jsを使用し、図形、数学をイメージし、図形が画面端に到達すると跳ね返るようなアニメーションを作成しました。<br />
+                ・コンタクトページは、どの画面からでも移動できるよう、ヘッダー内に常に表示させるようにしました。
+              </p>
+            </section>
+          </div>
+          <div class="workpage-work_content_second">
+            <div class="workpage-work_content_third_left">
+              <section
+                class="workpage-work_group workpage-work_group_marginbottom"
+              >
+                <h3 class="workpage-work_section_title">制作内容</h3>
+                <div class="workpage-work_category">
+                  <p class="workpage-work_category_code">コーディング</p>
+                  <p class="workpage-work_category_design">デザイン</p>
+                </div>
+              </section>
+              <section class="workpage-work_group">
+                <h3 class="workpage-work_section_title">制作期間</h3>
+                <p class="workpage-work_section_text">1ヶ月</p>
+              </section>
+            </div>
+            <div class="workpage-work_content_third_right">
+              <section class="workpage-work_group">
+                <h3 class="workpage-work_section_title">スキル</h3>
+                <p class="workpage-work_section_text">
+                  HTML CSS Sass Javascript<br />jQuery Three.js
+                </p>
+              </section>
+              <section class="workpage-work_group">
+                <h3 class="workpage-work_section_title">プレゼン資料</h3>
+                <p class="workpage-work_section_text">
+                  <a href="https://github.com/kohei-01132/">こちら</a>
+                </p>
+              </section>
+            </div>
+          </div>
+          <div class="workpage-work_img">
+            <img
+              class="workpage-work_img_photo"
+              src="./image/bourbaki/pcload.png"
+              alt=""
+            />
+          </div>
+          <div class="workpage-work_img">
+            <img
+              class="workpage-work_img_photo"
+              src="./image/bourbaki/pcopen.png"
+              alt=""
+            />
+          </div>
+          <div class="workpage-work_img">
+            <img
+              class="workpage-work_img_photo"
+              src="./image/bourbaki/pcskate.png"
+              alt=""
+            />
+          </div>
+          <div class="workpage-work_img">
+            <img
+              class="workpage-work_img_photo"
+              src="./image/bourbaki/pccompany.png"
+              alt=""
+            />
+          </div>
+          <div class="workpage-work_img">
+            <img
+              class="workpage-work_img_photo"
+              src="./image/bourbaki/pccontact.png"
+              alt=""
+            />
+          </div>
+          <div class="workpage-work_img">
+            <img
+              class="workpage-work_img_photo"
+              src="./image/bourbaki/bourbaki_mob1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="workpage-work_img">
+            <img
+              class="workpage-work_img_photo"
+              src="./image/bourbaki/bourbaki_mob2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="workpage-work_btn_top">
+            <div class="workpage-work_btn workpage-work_btn_url">
+              <a href="https://kohei-01132.github.io/bourbaki/" target="_blank">
+                <p class="workpage-work_btn_text">サイト（GitHub Pages）</p>
+                <div class="work-list_btn_arrow">
+                  <div class="work-list_btn_arrow_top"></div>
+                  <div class="work-list_btn_arrow_middle"></div>
+                  <div class="work-list_btn_arrow_bottom"></div></div
+              ></a>
+            </div>
+            <div class="workpage-work_btn workpage-work_btn_github">
+              <a href="https://github.com/kohei-01132/bourbaki" target="_blank">
+                <p class="workpage-work_btn_text">コード（GitHub）</p>
+                <div class="work-list_btn_arrow">
+                  <div class="work-list_btn_arrow_top"></div>
+                  <div class="work-list_btn_arrow_middle"></div>
+                  <div class="work-list_btn_arrow_bottom"></div></div
+              ></a>
+            </div>
+          </div>
+          <div class="workpage-work_btn workpage-work_btn_bottom">
+            <a href="index.html#work">
+              <div class="workpage-work_btn_arrow">
+                <div class="workpage-work_btn_arrow_top"></div>
+                <div class="workpage-work_btn_arrow_middle"></div>
+                <div class="workpage-work_btn_arrow_bottom"></div>
+              </div>
+              <p class="workpage-work_btn_text">work</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-left">
+          <p class="footer-title"><a href="#">takeshita kouhei</a></p>
+          <div class="footer-item">
+            <div class="footer-item_icon">
+              <a href="https://github.com/kohei-01132"
+                ><img
+                  src="./image/github-logo_icon-icons.com_73546bk.png"
+                  alt=""
+              /></a>
+            </div>
+            <div class="footer-item_icon">
+              <a href="https://www.instagram.com/kouhei.t/"
+                ><img src="./image/INSTAGRAM_icon-icons.com_65535bk.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <ul class="footer-list">
+            <li class="footer-list_wrap">
+              <p class="footer-list_title">
+                <a href="index.html#about">about</a>
+              </p>
+              <p class="footer-list_text">
+                <a href="index.html#skill">skill</a>
+              </p>
+            </li>
+            <li class="footer-list_title">
+              <a href="index.html#work">work</a>
+            </li>
+            <li class="footer-list_title">
+              <a href="index.html#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <div class="copyright">
+        <small>Copyright © 2021 takeshitakouhei</small>
+      </div>
+    </main>
+  </body>
+</html>

@@ -41,18 +41,18 @@
       })(document);
     </script>
   </head>
-  <body>
+  <body id="top">
     <div class="header-bg">
       <img src="./image/header-bg.png" alt="" />
     </div>
     <header class="header">
-      <div class="header-title"><a href="#">takeshita kouhei</a></div>
+      <div class="header-title"><a href="#top">takeshita kouhei</a></div>
       <div class="header-title_bg"></div>
       <div class="header-nav">
         <ul class="header-nav_wrap">
-          <li class="header-nav_list">about</li>
-          <li class="header-nav_list">work</li>
-          <li class="header-nav_list">contact</li>
+          <li class="header-nav_list"><a href="#about">about</a></li>
+          <li class="header-nav_list"><a href="#work">work</a></li>
+          <li class="header-nav_list"><a href="#contact">contact</a></li>
         </ul>
       </div>
       <div class="header-hum">
@@ -65,9 +65,9 @@
       <div class="humeMenu-container">
         <div class="humMenu-title"><a href="#">takeshita kouhei</a></div>
         <ul class="humMenu-wrap">
-          <li class="humMenu-list">about</li>
-          <li class="humMenu-list">work</li>
-          <li class="humMenu-list">contact</li>
+          <li class="humMenu-list"><a href="#about">about</a></li>
+          <li class="humMenu-list"><a href="#work">work</a></li>
+          <li class="humMenu-list"><a href="#content">contact</a></li>
           <li class="humMenu-list">
             <div class="humMenu_item_icon">
               <a href="https://github.com/kohei-01132" target="_blank">
@@ -103,7 +103,7 @@
         </div>
       </div>
 
-      <section class="about">
+      <section id="about" class="about">
         <h2 class="section-title">
           <div class="section-title_en">
             <img src="./image/about.png" alt="" />
@@ -151,104 +151,106 @@
             </div>
           </div>
         </div>
-        <section class="about-skill">
-          <h2 class="skill-title">
-            <p class="skill-title_en">skill</p>
-            <p class="skill-title_jp">スキル</p>
-          </h2>
-          <div class="skill-wrap">
-            <div class="skill-design">
-              <h3 class="skill-wrap_title">デザイン</h3>
-              <ul class="skill-list">
-                <li class="skill-list_content skill-list_content_design">
-                  <p class="skill-list_text">Illustrator</p>
-                  <p class="skill-list_percent">50%</p>
-                  <div class="skill-list_percent_design illustrator"></div>
-                </li>
-                <li class="skill-list_content skill-list_content_design">
-                  <p class="skill-list_text">Photoshop</p>
-                  <p class="skill-list_percent">50%</p>
-                  <div class="skill-list_percent_design illustrator"></div>
-                </li>
-                <li class="skill-list_content skill-list_content_design">
-                  <p class="skill-list_text">XD</p>
-                  <p class="skill-list_percent">50%</p>
-                  <div class="skill-list_percent_design illustrator"></div>
-                </li>
-              </ul>
-            </div>
-            <div class="skill-code">
-              <h3 class="skill-wrap_title code-title">コーディング</h3>
-              <ul class="skill-list">
-                <li
-                  class="
-                    skill-list_content skill-list_content_code skill-list_code
-                  "
-                >
-                  <p class="skill-list_text">HTML</p>
-                  <p class="skill-list_percent">60%</p>
-                  <div class="skill-list_percent_code html"></div>
-                </li>
-                <li
-                  class="
-                    skill-list_content skill-list_content_code skill-list_code
-                  "
-                >
-                  <p class="skill-list_text">CSS</p>
-                  <p class="skill-list_percent">60%</p>
-                  <div class="skill-list_percent_code html"></div>
-                </li>
-                <li
-                  class="
-                    skill-list_content skill-list_content_code skill-list_code
-                  "
-                >
-                  <p class="skill-list_text">Sass</p>
-                  <p class="skill-list_percent">50%</p>
-                  <div class="skill-list_percent_code illustrator"></div>
-                </li>
-                <li
-                  class="
-                    skill-list_content skill-list_content_code skill-list_code
-                  "
-                >
-                  <p class="skill-list_text">JavaScript</p>
-                  <p class="skill-list_percent">30%</p>
-                  <div class="skill-list_percent_code js"></div>
-                </li>
-                <li
-                  class="
-                    skill-list_content skill-list_content_code skill-list_code
-                  "
-                >
-                  <p class="skill-list_text">jQuery</p>
-                  <p class="skill-list_percent">40%</p>
-                  <div class="skill-list_percent_code jquery"></div>
-                </li>
-                <li
-                  class="
-                    skill-list_content skill-list_content_code skill-list_code
-                  "
-                >
-                  <p class="skill-list_text">Three.js</p>
-                  <p class="skill-list_percent">30%</p>
-                  <div class="skill-list_percent_code js"></div>
-                </li>
-                <li
-                  class="
-                    skill-list_content skill-list_content_code skill-list_code
-                  "
-                >
-                  <p class="skill-list_text">WordPress</p>
-                  <p class="skill-list_percent">10%</p>
-                  <div class="skill-list_percent_code wp"></div>
-                </li>
-              </ul>
+        <section id="skill" class="skill">
+          <div class="about-skill">
+            <h2 class="skill-title">
+              <p class="skill-title_en">skill</p>
+              <p class="skill-title_jp">スキル</p>
+            </h2>
+            <div class="skill-wrap">
+              <div class="skill-design">
+                <h3 class="skill-wrap_title">デザイン</h3>
+                <ul class="skill-list">
+                  <li class="skill-list_content skill-list_content_design">
+                    <p class="skill-list_text">Illustrator</p>
+                    <p class="skill-list_percent">50%</p>
+                    <div class="skill-list_percent_design illustrator"></div>
+                  </li>
+                  <li class="skill-list_content skill-list_content_design">
+                    <p class="skill-list_text">Photoshop</p>
+                    <p class="skill-list_percent">50%</p>
+                    <div class="skill-list_percent_design illustrator"></div>
+                  </li>
+                  <li class="skill-list_content skill-list_content_design">
+                    <p class="skill-list_text">XD</p>
+                    <p class="skill-list_percent">50%</p>
+                    <div class="skill-list_percent_design illustrator"></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="skill-code">
+                <h3 class="skill-wrap_title code-title">コーディング</h3>
+                <ul class="skill-list">
+                  <li
+                    class="
+                      skill-list_content skill-list_content_code skill-list_code
+                    "
+                  >
+                    <p class="skill-list_text">HTML</p>
+                    <p class="skill-list_percent">60%</p>
+                    <div class="skill-list_percent_code html"></div>
+                  </li>
+                  <li
+                    class="
+                      skill-list_content skill-list_content_code skill-list_code
+                    "
+                  >
+                    <p class="skill-list_text">CSS</p>
+                    <p class="skill-list_percent">60%</p>
+                    <div class="skill-list_percent_code html"></div>
+                  </li>
+                  <li
+                    class="
+                      skill-list_content skill-list_content_code skill-list_code
+                    "
+                  >
+                    <p class="skill-list_text">Sass</p>
+                    <p class="skill-list_percent">50%</p>
+                    <div class="skill-list_percent_code illustrator"></div>
+                  </li>
+                  <li
+                    class="
+                      skill-list_content skill-list_content_code skill-list_code
+                    "
+                  >
+                    <p class="skill-list_text">JavaScript</p>
+                    <p class="skill-list_percent">30%</p>
+                    <div class="skill-list_percent_code js"></div>
+                  </li>
+                  <li
+                    class="
+                      skill-list_content skill-list_content_code skill-list_code
+                    "
+                  >
+                    <p class="skill-list_text">jQuery</p>
+                    <p class="skill-list_percent">40%</p>
+                    <div class="skill-list_percent_code jquery"></div>
+                  </li>
+                  <li
+                    class="
+                      skill-list_content skill-list_content_code skill-list_code
+                    "
+                  >
+                    <p class="skill-list_text">Three.js</p>
+                    <p class="skill-list_percent">30%</p>
+                    <div class="skill-list_percent_code js"></div>
+                  </li>
+                  <li
+                    class="
+                      skill-list_content skill-list_content_code skill-list_code
+                    "
+                  >
+                    <p class="skill-list_text">WordPress</p>
+                    <p class="skill-list_percent">10%</p>
+                    <div class="skill-list_percent_code wp"></div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
       </section>
-      <section class="work">
+      <section id="work" class="work">
         <h2 class="section-title section-title_work">
           <div class="section-title_work_en">
             <img src="./image/work.png" alt="" />
@@ -260,7 +262,14 @@
         <div class="work-wrap">
           <ul class="work-content">
             <li class="work-list">
-              <div class="work-list_img"><img src="" alt="" /></div>
+              <div class="work-list_img">
+                <a href="bourbaki.html">
+                  <img
+                    class="work-list_img_photo"
+                    src="./image/bourbaki/pctop.png"
+                    alt=""
+                /></a>
+              </div>
               <div class="work-list_text">
                 <p class="work-list_title">
                   株式会社ブルバキ
@@ -282,52 +291,55 @@
                   </div>
                 </div>
                 <div class="work-list_btn">
-                  <div class="work-list_btn_text">more</div>
-                  <div class="work-list_btn_arrow">
-                    <div class="work-list_btn_arrow_top"></div>
-                    <div class="work-list_btn_arrow_middle"></div>
-                    <div class="work-list_btn_arrow_bottom"></div>
-                  </div>
+                  <a href="bourbaki.html">
+                    <div class="work-list_btn_text">more</div>
+                    <div class="work-list_btn_arrow">
+                      <div class="work-list_btn_arrow_top"></div>
+                      <div class="work-list_btn_arrow_middle"></div>
+                      <div class="work-list_btn_arrow_bottom"></div></div
+                  ></a>
                 </div>
               </div>
             </li>
             <li class="work-list">
-              <div class="work-list_img"><img src="" alt="" /></div>
+              <div class="work-list_img">
+                <a href="">
+                  <img
+                    class="work-list_img_photo"
+                    src="./image/portfolio-top.png"
+                    alt=""
+                /></a>
+              </div>
               <div class="work-list_text">
-                <p class="work-list_title">
-                  株式会社ブルバキ
-                  <span class="work-list_title_small">(架空)</span>
-                </p>
+                <p class="work-list_title">ポートフォリオ</p>
                 <div class="work-list_category">
                   <p class="work-list_design">デザイン</p>
                   <p class="work-list_code">コーディング</p>
                 </div>
                 <div class="work-list_period">
                   <p class="work-list_period_title">製作期間</p>
-                  <p class="work-list_period_text">:1ヶ月</p>
+                  <p class="work-list_period_text">:7日</p>
                 </div>
                 <div class="work-list_skill">
                   <div class="work-list_skill_title">スキル</div>
-                  <div class="work-list_skill_text">
-                    :HTML CSS Sass Three.js<br />
-                    JavaScript jQuery
-                  </div>
+                  <div class="work-list_skill_text">:HTML CSS Sass jQuery</div>
                 </div>
                 <div class="work-list_btn">
-                  <div class="work-list_btn_text">more</div>
-                  <div class="work-list_btn_arrow">
-                    <div class="work-list_btn_arrow_top"></div>
-                    <div class="work-list_btn_arrow_middle"></div>
-                    <div class="work-list_btn_arrow_bottom"></div>
-                  </div>
+                  <a href="">
+                    <div class="work-list_btn_text">more</div>
+                    <div class="work-list_btn_arrow">
+                      <div class="work-list_btn_arrow_top"></div>
+                      <div class="work-list_btn_arrow_middle"></div>
+                      <div class="work-list_btn_arrow_bottom"></div></div
+                  ></a>
                 </div>
               </div>
             </li>
           </ul>
         </div>
-        <div class="work-btn">content more</div>
+        <div class="work-btn"><a href="">content more</a></div>
       </section>
-      <section class="contact">
+      <section id="contact" class="contact">
         <h2 class="contact-title">
           <div class="contact-title_text">
             <img src="./image/contact.png" alt="" />
@@ -340,7 +352,7 @@
       </section>
       <footer class="footer">
         <div class="footer-left">
-          <p class="footer-title">takeshita kouhei</p>
+          <p class="footer-title"><a href="#top">takeshita kouhei</a></p>
           <div class="footer-item">
             <div class="footer-item_icon">
               <a href="https://github.com/kohei-01132"
@@ -359,11 +371,11 @@
         <div class="footer-right">
           <ul class="footer-list">
             <li class="footer-list_wrap">
-              <p class="footer-list_title">about</p>
-              <p class="footer-list_text">skill</p>
+              <p class="footer-list_title"><a href="#about">about</a></p>
+              <p class="footer-list_text"><a href="#skill">skill</a></p>
             </li>
-            <li class="footer-list_title">work</li>
-            <li class="footer-list_title">contact</li>
+            <li class="footer-list_title"><a href="#work">work</a></li>
+            <li class="footer-list_title"><a href="#contact">contact</a></li>
           </ul>
         </div>
       </footer>

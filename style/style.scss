@@ -21,10 +21,13 @@ $maincolor: #242e43;
   text-decoration: none;
   list-style-type: none;
 }
-body {
+.body {
   overflow-x: hidden;
   width: 100vw;
   background-color: #edece7;
+}
+.white {
+  background-color: #fff;
 }
 
 .header-bg {

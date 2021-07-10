@@ -479,7 +479,7 @@
   width: 85.938vw;
   height: auto;
   margin: -56px 0 100px auto;
-  padding: 104px 100px 68px 180px;
+  padding: 104px 200px 68px 180px;
   background-color: #fff;
 }
 
@@ -545,6 +545,18 @@
 .about-text_area p {
   margin-bottom: 30px;
   padding-left: 10px;
+  font-size: 14px;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  line-height: 1.9;
+}
+
+.about-text_area ul {
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+.about-text_area li {
+  list-style-type: disc;
   font-size: 14px;
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   line-height: 1.9;
